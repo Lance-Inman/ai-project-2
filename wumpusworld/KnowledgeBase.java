@@ -14,6 +14,7 @@ public class KnowledgeBase {
     private int[][] pitMap;
     private int[][] obstacleMap;
     private int[][] pathMap;
+    private int[] glimmer;
     private int steps;
 
     public KnowledgeBase(int size) {
@@ -21,6 +22,7 @@ public class KnowledgeBase {
         pitMap = new int[size][size];
         obstacleMap = new int[size][size];
         pathMap = new int[size][size];
+        glimmer = new int[2];
         moveStack = new ArrayList<>();
         steps = 0;
         fillArray(wumpusMap, 0);
@@ -116,6 +118,19 @@ public class KnowledgeBase {
 
     public void tellBump(int x, int y, int[] direction) {
         obstacleMap[x + direction[0]][y + direction[1]]++;
+    }
+
+    public void tellGlimmer(int x, int y) {
+        glimmer[0] = x;
+        glimmer[1] = y;
+    }
+
+    public boolean askGlimmer(int x, int y) {
+        if(glimmer[0] == x && glimmer[1] == y) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public void tellScream(int x, int y, int[] direction) {
