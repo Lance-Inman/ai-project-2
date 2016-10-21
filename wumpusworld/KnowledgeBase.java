@@ -31,7 +31,15 @@ public class KnowledgeBase {
 
     public static void main(String[] args) {
         KnowledgeBase kb = new KnowledgeBase(5);
-        kb.tellClear(0, 0);
+        kb.registerMove(0,0);
+        kb.tellBump(0,0,kb.NORTH);
+        kb.registerMove(1,0);
+        kb.tellClear(1, 0);
+        kb.registerMove(2,0);
+        kb.tellStench(2, 0);
+        kb.print();
+
+        /*kb.tellClear(0, 0);
         kb.tellClear(0, 1);
         kb.tellStench(0, 2);
         kb.tellClear(0, 1);
@@ -42,6 +50,7 @@ public class KnowledgeBase {
         kb.tellClear(3, 1);
         kb.tellStench(3, 2);
         kb.print();
+        */
     }
 
     /**
@@ -64,14 +73,13 @@ public class KnowledgeBase {
     public void registerMove(int x, int y) {
         int[] move = {x, y};
         moveStack.add(move);
-        pathMap[x][y] = steps++;
-    }
-
-    public void tellClear(int x, int y) {
         wumpusMap[x][y] = CLEAR;
         pitMap[x][y] = CLEAR;
         obstacleMap[x][y] = CLEAR;
+        pathMap[x][y]++;
+    }
 
+    public void tellClear(int x, int y) {
         // for each cell neighboring cell[x,y]
         for (int[] d : DIRECTIONS) {
             // ensure that the neighboring cell is on the map
@@ -128,25 +136,18 @@ public class KnowledgeBase {
         int x = 0;
         int y = 0;
 
-        // Print top bar and numbers
-        System.out.print(" ");
-        for (int i = 0; i < pathMap.length; i++) {
-            System.out.print(" " + i);
-        }
-        System.out.print("\n ");
-        for (int i = 0; i < pathMap.length; i++) {
-            System.out.print("--");
-        }
-        System.out.println();
-
         // print the values for each cell
-        for (y = 0; y < pathMap.length; y++) {
+        for (y = pathMap.length-1; y >= 0; y--) {
             if (x == 0) {
                 System.out.print(y + "|");
             }
             for (x = 0; x < pathMap.length; x++) {
-                if (pathMap[x][y] > 0) {
-                    System.out.print(pathMap[x][y] + " ");
+                int lastX = moveStack.get(moveStack.size()-1)[0];
+                int lastY = moveStack.get(moveStack.size()-1)[1];
+                if (lastX == x && lastY == y) {
+                    System.out.print("o ");
+                } else if (pathMap[x][y] > 0) {
+                    System.out.print("+ ");
                 } else if (obstacleMap[x][y] > 0) {
                     System.out.print("# ");
                 } else if (wumpusMap[x][y] < 0 && pitMap[x][y] < 0) {
@@ -163,6 +164,14 @@ public class KnowledgeBase {
             }
             x = 0;
             System.out.println();
+        }
+        System.out.print(" ");
+        for (int i = 0; i < pathMap.length; i++) {
+            System.out.print("--");
+        }
+        System.out.print("\n ");
+        for (int i = 0; i < pathMap.length; i++) {
+            System.out.print(" " + i);
         }
     }
 
