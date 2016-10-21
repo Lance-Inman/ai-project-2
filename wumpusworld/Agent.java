@@ -31,6 +31,8 @@ public abstract class Agent
     public void start(Game game) throws GameOverException{
         this.game = game;
         this.knowledgeBase = new KnowledgeBase(game.size);
+        this.direction = knowledgeBase.NORTH;
+        knowledgeBase.registerMove(position[0], position[1]);
         while(true) {
             infer();
         }

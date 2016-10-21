@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class KnowledgeBase {
     public final int[] NORTH = {0, 1};
     public final int[] SOUTH = {0, -1};
-    public final int[] EAST = {-1, 0};
-    public final int[] WEST = {1, 0};
+    public final int[] EAST = {1, 0};
+    public final int[] WEST = {-1, 0};
     private final int CLEAR = -1;
     private final int[][] DIRECTIONS = {NORTH, SOUTH, EAST, WEST};
     public ArrayList<int[]> moveStack;
@@ -103,7 +103,11 @@ public class KnowledgeBase {
     }
 
     public int askWumpus(int x, int y) {
-        return wumpusMap[x][y];
+        try {
+            return wumpusMap[x][y];
+        } catch (ArrayIndexOutOfBoundsException aiobe) {
+            return 100;
+        }
     }
 
     public void tellBreeze(int x, int y) {
@@ -113,11 +117,27 @@ public class KnowledgeBase {
     }
 
     public int askPit(int x, int y) {
-        return pitMap[x][y];
+        try {
+            return pitMap[x][y];
+        } catch (ArrayIndexOutOfBoundsException aiobe) {
+            return 100;
+        }
     }
 
     public void tellBump(int x, int y, int[] direction) {
         obstacleMap[x + direction[0]][y + direction[1]]++;
+    }
+
+    public int askObstacle(int x, int y) {
+        try {
+            if(obstacleMap[x][y] > 0) {
+                return 100;
+            } else {
+                return 0;
+            }
+        } catch (ArrayIndexOutOfBoundsException aioobe) {
+            return 100;
+        }
     }
 
     public void tellGlimmer(int x, int y) {
@@ -188,6 +208,7 @@ public class KnowledgeBase {
         for (int i = 0; i < pathMap.length; i++) {
             System.out.print(" " + i);
         }
+        System.out.println();
     }
 
     private void fillArray(int[][] array, int val) {

@@ -19,9 +19,12 @@ public class Game
         world = WumpusWorldGenerator.generateWorld(size, wumpusProb, pitProb, obsProb);
         this.agent = agent;
         this.agent.position = WumpusWorldGenerator.startingPosition;
-        this.agent.knowledgeBase.registerMove(this.agent.position[0], this.agent.position[1]);
         this.size = size;
         this.score = 1000;
+    }
+
+    public int getScore() {
+        return score;
     }
     
     public boolean moveAgent() throws GameOverException
