@@ -27,8 +27,6 @@ public class KnowledgeBase {
         fillArray(pitMap, 0);
         fillArray(obstacleMap, 0);
         fillArray(pathMap, 0);
-        int[] start = {0, 0};
-        moveStack.add(start);
     }
 
     public static void main(String[] args) {
