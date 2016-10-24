@@ -10,6 +10,7 @@ public class KnowledgeBase {
     private final int CLEAR = -1;
     public final int[][] DIRECTIONS = {NORTH, SOUTH, EAST, WEST};
     public ArrayList<int[]> moveStack;
+    public ArrayList turnStack;
     private int[][] wumpusMap;
     private int[][] pitMap;
     private int[][] obstacleMap;
@@ -24,6 +25,7 @@ public class KnowledgeBase {
         pathMap = new int[size][size];
         glimmer = new int[2];
         moveStack = new ArrayList<>();
+        turnStack = new ArrayList<>();
         steps = 0;
         fillArray(wumpusMap, 0);
         fillArray(pitMap, 0);
@@ -81,6 +83,14 @@ public class KnowledgeBase {
         pathMap[x][y]++;
     }
 
+    public void registerTurn(int dir) {
+        if(dir == 0 || dir == 1) {
+            turnStack.add(dir);
+        } else {
+            System.out.println("invalid direction passed to registerTurn");
+        }
+    }
+
     public void tellClear(int x, int y) {
         // for each cell neighboring cell[x,y]
         for (int[] d : DIRECTIONS) {
@@ -129,7 +139,11 @@ public class KnowledgeBase {
     }
 
     public void tellBump(int x, int y, int[] direction) {
-        obstacleMap[x + direction[0]][y + direction[1]]++;
+        try {
+            obstacleMap[x + direction[0]][y + direction[1]]++;
+        } catch (ArrayIndexOutOfBoundsException aioobe) {
+            return;
+        }
     }
 
     public int askObstacle(int x, int y) {

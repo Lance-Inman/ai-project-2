@@ -1,0 +1,3920 @@
+
+
+infer()
+	pos:[5,9]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:400
+	rightDanger:0
+	leftDanger:0
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[5,9]
+	direction:{0,1}
+	riskFactor:-1
+	forwardDanger:400
+	rightDanger:0
+	leftDanger:0
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[5,9]
+	direction:{0,1}
+	riskFactor:0
+	forwardDanger:400
+	rightDanger:0
+	leftDanger:0
+Agent turned left.
+9|? ? ? ! o + ? ? ? ?
+8|? ? ? ? ! ? ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:400
+	leftDanger:-1
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[4,9]
+	direction:{-1,0}
+	riskFactor:-1
+	forwardDanger:-1
+	rightDanger:400
+	leftDanger:-1
+9|? ?   o + + ? ? ? ?
+8|? ? ?   ! ? ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:400
+	leftDanger:-2
+9|? ! o + + + ? ? ? ?
+8|? ? !   ! ? ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:400
+	leftDanger:-1
+lookback succeeded
+backtracking to [3,9]
+moveStack.size:4	tempTurnStack.size:4
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[3,9]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:400
+Agent turned right.
+9|? ! + + + + ? ? ? ?
+8|? ?   o   ? ? ? ? ?
+7|? ? ?   ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,8]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + + ? ? ? ?
+8|? ?   +   ? ? ? ? ?
+7|? ? ! o ! ? ? ? ? ?
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,7]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [3,8]
+moveStack.size:7	tempTurnStack.size:7
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[3,8]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:0
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + + ? ? ? ?
+8|? ! o +   ? ? ? ? ?
+7|? ? ! + ! ? ? ? ? ?
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,8]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [3,8]
+moveStack.size:9	tempTurnStack.size:9
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[3,8]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-1
+	leftDanger:0
+9|? ! + + + + ? ? ? ?
+8|? ! + + o   ? ? ? ?
+7|? ? ! +   ? ? ? ? ?
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,8]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|? ! + + + + ? ? ? ?
+8|? ! + + + o   ? ? ?
+7|? ? ! +     ? ? ? ?
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,8]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|? ! + + + +   ? ? ?
+8|? ! + + + + o   ? ?
+7|? ? ! +       ? ? ?
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[6,8]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +     ? ?
+8|? ! + + + + + o   ?
+7|? ? ! +         ? ?
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[7,8]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       ?
+8|? ! + + + + + + o
+7|? ? ! +           ?
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,8]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +
+8|? ! + + + + + + + o
+7|? ? ! +
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[9,8]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:400
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + o
+7|? ? ! +
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[9,8]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:400
+	leftDanger:-1
+lookback succeeded
+backtracking to [9,8]
+moveStack.size:16	tempTurnStack.size:16
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[9,8]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:400
+lookback succeeded
+backtracking to [8,8]
+moveStack.size:16	tempTurnStack.size:16
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+	No suitable backtrack found
+infer()
+	pos:[9,8]
+	direction:{0,-1}
+	riskFactor:-1
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:400
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + o +
+7|? ? ! +           #
+6|? ? ? ! ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,8]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +         o #
+6|? ? ? ! ? ? ? ?   ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,7]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:98
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +         + #
+6|? ? ? ! ? ? ?   o
+5|? ? ? ? ? ? ? ?   ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,6]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +         + #
+6|? ? ? ! ? ? ?   +
+5|? ? ? ? ? ? ?   o
+4|? ? ? ? ? ? ? ?   ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,5]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +         + #
+6|? ? ? ! ? ? ?   +
+5|? ? ? ? ? ? ?   +
+4|? ? ? ? ? ? ? w o w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,4]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [8,5]
+moveStack.size:21	tempTurnStack.size:21
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[8,5]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +         + #
+6|? ? ? ! ? ? ?   +
+5|? ? ? ? ? ?   o +
+4|? ? ? ? ? ? ?   + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[7,5]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +         + #
+6|? ? ? ! ? ?     +
+5|? ? ? ? ?   o + +
+4|? ? ? ? ? ?     + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[6,5]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +         + #
+6|? ? ? ! ?       +
+5|? ? ? ?   o + + +
+4|? ? ? ? ?       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,5]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +         + #
+6|? ? ? ! !       +
+5|? ? ? ! o + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,5]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [5,5]
+moveStack.size:26	tempTurnStack.size:26
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[5,5]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +         + #
+6|? ? ? !   o     +
+5|? ? ? ! + + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,6]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! +   o     + #
+6|? ? ? !   +     +
+5|? ? ? ! + + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,7]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + o +     + #
+6|? ? ? !   +     +
+5|? ? ? ! + + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,7]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + +     + #
+6|? ? ?   o +     +
+5|? ? ? ! + + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,6]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-1
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + +     + #
+6|? ? ! o + +     +
+5|? ? ? ! + + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,6]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [5,7]
+moveStack.size:32	tempTurnStack.size:32
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+	backtracked
+infer()
+	pos:[5,7]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-1
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + o   + #
+6|? ? ! + + +     +
+5|? ? ? ! + + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[6,7]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + o + #
+6|? ? ! + + +     +
+5|? ? ? ! + + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[7,7]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-1
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + +   o +
+5|? ? ? ! + + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[7,6]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-1
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + o + +
+5|? ? ? ! + + + + +
+4|? ? ? ? !       + w
+3|? ? ? ? ? ? ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[6,6]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [5,5]
+moveStack.size:41	tempTurnStack.size:41
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[5,5]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-1
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   o     + w
+3|? ? ? ? ?   ? ? w ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,4]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|? ? ? ?   o   ? w ?
+2|? ? ? ? ?   ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,3]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|? ? ? ?   +   ? w ?
+2|? ? ? ?   o   ? ? ?
+1|? ? ? ? ?   ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,2]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|? ? ? ?   +   ? w ?
+2|? ? ? ?   +   ? ? ?
+1|? ? ? ? w o w ? ? ?
+0|? ? ? ? ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,1]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [5,2]
+moveStack.size:61	tempTurnStack.size:61
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[5,2]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|? ? ? ?   +   ? w ?
+2|? ? ?   o +   ? ? ?
+1|? ? ? ?   + w ? ? ?
+0|? ? ? ? ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,2]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|? ? ?     +   ? w ?
+2|? ?   o + +   ? ? ?
+1|? ? ?     + w ? ? ?
+0|? ? ? ? ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,2]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|? ?       +   ? w ?
+2|?   o + + +   ? ? ?
+1|? ?       + w ? ? ?
+0|? ? ? ? ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,2]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?         +   ? w ?
+2|  o + + + +   ? ? ?
+1|?         + w ? ? ?
+0|? ? ? ? ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,2]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?         +   ? w ?
+2|# o + + + +   ? ? ?
+1|?         + w ? ? ?
+0|? ? ? ? ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,2]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?         +   ? w ?
+2|# + + + + +   ? ? ?
+1|  o       + w ? ? ?
+0|?   ? ? ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,1]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?         +   ? w ?
+2|# + + + + +   ? ? ?
+1|  o       + w ? ? ?
+0|? # ? ? ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,1]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?         +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + o     + w ? ? ?
+0|? #   ? ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,1]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?         +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + o   + w ? ? ?
+0|? #     ? w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,1]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?         +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + o + w ? ? ?
+0|? #       w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,1]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-1
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?         +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + o + w ? ? ?
+0|? #     # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,1]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [3,1]
+moveStack.size:70	tempTurnStack.size:70
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+	backtracked
+infer()
+	pos:[3,1]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?         +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + o + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,1]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:0
+lookback succeeded
+backtracking to [4,2]
+moveStack.size:73	tempTurnStack.size:73
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+	backtracked
+infer()
+	pos:[4,2]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:0
+	leftDanger:0
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ? ?   +     + w
+3|?       o +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,3]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-1
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ?   o +     + w
+3|?       + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,4]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ! o + +     + w
+3|?       + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,4]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ? ! + + +     + w
+3|?     o + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,3]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:0
+	rightDanger:-2
+	leftDanger:-1
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|? ?   + + +     + w
+3|?   o + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,3]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|?     + + +     + w
+3|  o + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,3]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|? ? ? ! + + + + +
+4|?     + + +     + w
+3|# o + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,3]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-2
+	leftDanger:-1
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|? ? ! + + + + + +
+5|?   ? ! + + + + +
+4|  o   + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,4]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|? ? ! + + + + + + #
+6|?   ! + + + + + +
+5|  o   ! + + + + +
+4|  +   + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,5]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|?   ! + + + + + + #
+6|  o   + + + + + +
+5|  +   ! + + + + +
+4|  +   + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,6]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! o ! + + + + + + #
+6|  +   + + + + + +
+5|  +   ! + + + + +
+4|  +   + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,7]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [1,6]
+moveStack.size:87	tempTurnStack.size:87
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[1,6]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|  + o + + + + + +
+5|  +   ! + + + + +
+4|  +   + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,6]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:2
+	rightDanger:-2
+	leftDanger:-1
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|  + + + + + + + +
+5|  + o ! + + + + +
+4|  +   + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,5]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-1
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|  + + + + + + + +
+5|  + + ! + + + + +
+4|  + o + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,4]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [1,6]
+moveStack.size:91	tempTurnStack.size:91
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[1,6]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-1
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|# o + + + + + + +
+5|  + + ! + + + + +
+4|  + + + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,6]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [1,5]
+moveStack.size:96	tempTurnStack.size:96
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+	backtracked
+infer()
+	pos:[1,5]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:4
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|# + + + + + + + +
+5|# o + ! + + + + +
+4|  + + + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,5]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:4
+	leftDanger:-1
+lookback succeeded
+backtracking to [1,4]
+moveStack.size:109	tempTurnStack.size:109
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+	backtracked
+infer()
+	pos:[1,4]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:6
+Agent turned right.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|# + + + + + + + +
+5|# + + ! + + + + +
+4|# o + + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + + + + + w ? ? ?
+0|? #   # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,4]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:2
+	leftDanger:-1
+lookback succeeded
+backtracking to [2,1]
+moveStack.size:136	tempTurnStack.size:136
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[2,1]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|# + + + + + + + +
+5|# + + ! + + + + +
+4|# + + + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|  + o + + + w ? ? ?
+0|? # # # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,1]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:4
+lookback succeeded
+backtracking to [1,1]
+moveStack.size:206	tempTurnStack.size:206
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[1,1]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-1
+	leftDanger:98
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|# + + + + + + + +
+5|# + + ! + + + + +
+4|# + + + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + +   ? ? ?
+1|# o + + + + w ? ? ?
+0|? # # # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,1]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:98
+lookback succeeded
+backtracking to [5,2]
+moveStack.size:347	tempTurnStack.size:347
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+	backtracked
+infer()
+	pos:[5,2]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-1
+	leftDanger:-1
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|# + + + + + + + +
+5|# + + ! + + + + +
+4|# + + + + +     + w
+3|# + + + + +   ? w ?
+2|# + + + + + o w ? ?
+1|# + + + + + w ? ? ?
+0|? # # # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[6,2]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-2
+Agent turned left.
+9|? ! + + + +       #
+8|? ! + + + + + + + +
+7|! + ! + + + + + + #
+6|# + + + + + + + +
+5|# + + ! + + + + +
+4|# + + + + +     + w
+3|# + + + + + o   w ?
+2|# + + + + + + w ? ?
+1|# + + + + + w ? ? ?
+0|? # # # # w ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+The agent won the game!
+score:103
+
+infer()
+	pos:[8,4]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:0
+	rightDanger:0
+	leftDanger:0
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[8,4]
+	direction:{0,1}
+	riskFactor:-1
+	forwardDanger:0
+	rightDanger:0
+	leftDanger:0
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[8,4]
+	direction:{0,1}
+	riskFactor:0
+	forwardDanger:0
+	rightDanger:0
+	leftDanger:0
+9|? ? ? ? ? ? ? ? ? ?
+8|? ? ? ? ? ? ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ?   ?
+5|? ? ? ? ? ? ?   o
+4|? ? ? ? ? ? ? ? + ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,5]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ? ? ? ? ? ? ? ? ?
+8|? ? ? ? ? ? ? ? ? ?
+7|? ? ? ? ? ? ? ?   ?
+6|? ? ? ? ? ? ?   o
+5|? ? ? ? ? ? ?   +
+4|? ? ? ? ? ? ? ? + ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,6]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|? ? ? ? ? ? ? ? ? ?
+8|? ? ? ? ? ? ? ? w ?
+7|? ? ? ? ? ? ? w o w
+6|? ? ? ? ? ? ?   +
+5|? ? ? ? ? ? ?   +
+4|? ? ? ? ? ? ? ? + ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,7]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [8,6]
+moveStack.size:4	tempTurnStack.size:4
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[8,6]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ? ? ? ? ? ? ? ? ?
+8|? ? ? ? ? ? ? ? w ?
+7|? ? ? ? ? ? ? w +
+6|? ? ? ? ? ? ?   + o
+5|? ? ? ? ? ? ?   +
+4|? ? ? ? ? ? ? ? + ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[9,6]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:400
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ? ? ? ? ? ? ? ? ?
+8|? ? ? ? ? ? ? ? w ?
+7|? ? ? ? ? ? ? w + #
+6|? ? ? ? ? ? ?   + o
+5|? ? ? ? ? ? ?   +
+4|? ? ? ? ? ? ? ? + ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[9,6]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:400
+	leftDanger:0
+lookback succeeded
+backtracking to [9,6]
+moveStack.size:6	tempTurnStack.size:6
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+	backtracked
+infer()
+	pos:[9,6]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:400
+	leftDanger:0
+lookback succeeded
+backtracking to [8,6]
+moveStack.size:8	tempTurnStack.size:8
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+	No suitable backtrack found
+infer()
+	pos:[9,6]
+	direction:{0,-1}
+	riskFactor:-1
+	forwardDanger:1
+	rightDanger:0
+	leftDanger:400
+lookback succeeded
+backtracking to [9,5]
+moveStack.size:12	tempTurnStack.size:12
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+Agent turned right.
+	No suitable backtrack found
+infer()
+	pos:[9,6]
+	direction:{0,-1}
+	riskFactor:0
+	forwardDanger:1
+	rightDanger:0
+	leftDanger:400
+Agent turned right.
+9|? ? ? ? ? ? ? ? ? ?
+8|? ? ? ? ? ? ? ? w ?
+7|? ? ? ? ? ? ? w + #
+6|? ? ? ? ? ? ?   o +
+5|? ? ? ? ? ? ?   + +
+4|? ? ? ? ? ? ? ? + w
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[8,6]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-1
+	leftDanger:-1
+9|? ? ? ? ? ? ? ? ? ?
+8|? ? ? ? ? ? ? ? w ?
+7|? ? ? ? ? ? ? w + #
+6|? ? ? ? ? ? w o + +
+5|? ? ? ? ? ? ?   + +
+4|? ? ? ? ? ? ? ? + w
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[7,6]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-2
+Agent turned left.
+9|? ? ? ? ? ? ? ? ? ?
+8|? ? ? ? ? ? ? ? w ?
+7|? ? ? ? ? ? ? w + #
+6|? ? ? ? ? ? w + + +
+5|? ? ? ? ? ?   o + +
+4|? ? ? ? ? ? ?   + w
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[7,5]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|? ? ? ? ? ? ? ? ? ?
+8|? ? ? ? ? ? ? ? w ?
+7|? ? ? ? ? ? ? w + #
+6|? ? ? ? ? ? w + + +
+5|? ? ? ? ? ?   + + +
+4|? ? ? ? ? ?   o + w
+3|? ? ? ? ? ? ?   ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+The agent won the game!
+score:1945
+
+infer()
+	pos:[5,8]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:0
+	rightDanger:0
+	leftDanger:0
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[5,8]
+	direction:{0,1}
+	riskFactor:-1
+	forwardDanger:0
+	rightDanger:0
+	leftDanger:0
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[5,8]
+	direction:{0,1}
+	riskFactor:0
+	forwardDanger:0
+	rightDanger:0
+	leftDanger:0
+9|? ? ? ?   o   ? ? ?
+8|? ? ? ? ? + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,9]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:400
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|? ? ?   o +   ? ? ?
+8|? ? ? ?   + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:400
+	leftDanger:-2
+9|? ?   o + +   ? ? ?
+8|? ? ?     + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:400
+	leftDanger:-2
+9|?   o + + +   ? ? ?
+8|? ?       + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:400
+	leftDanger:-2
+9|  o + + + +   ? ? ?
+8|?         + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:400
+	leftDanger:-2
+9|# o + + + +   ? ? ?
+8|?         + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:400
+	leftDanger:-2
+Agent turned left.
+9|# + + + + +   ? ? ?
+8|  o       + ? ? ? ?
+7|?   ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,8]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + +   ? ? ?
+8|  +       + ? ? ? ?
+7|  o   ? ? ? ? ? ? ?
+6|?   ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,7]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + +   ? ? ?
+8|  +       + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|  o   ? ? ? ? ? ? ?
+5|?   ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,6]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + +   ? ? ?
+8|  +       + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|  +   ? ? ? ? ? ? ?
+5|  o   ? ? ? ? ? ? ?
+4|?   ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,5]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + +   ? ? ?
+8|  +       + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|  +   ? ? ? ? ? ? ?
+5|  +   ? ? ? ? ? ? ?
+4|  o   ? ? ? ? ? ? ?
+3|?   ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,4]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + +   ? ? ?
+8|  +       + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|  +   ? ? ? ? ? ? ?
+5|  +   ? ? ? ? ? ? ?
+4|  +   ? ? ? ? ? ? ?
+3|w o w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,3]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [1,4]
+moveStack.size:12	tempTurnStack.size:12
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[1,4]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|# + + + + +   ? ? ?
+8|  +       + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|  +   ? ? ? ? ? ? ?
+5|  +   ? ? ? ? ? ? ?
+4|# o   ? ? ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,4]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [1,4]
+moveStack.size:13	tempTurnStack.size:13
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+	backtracked
+infer()
+	pos:[1,4]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [2,4]
+moveStack.size:15	tempTurnStack.size:15
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[2,4]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-2
+Agent turned left.
+9|# + + + + +   ? ? ?
+8|  +       + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|  +   ? ? ? ? ? ? ?
+5|  + o   ? ? ? ? ? ?
+4|# + + w ? ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,5]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|# + + + + +   ? ? ?
+8|  +       + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|  + o   ? ? ? ? ? ?
+5|  + +   ? ? ? ? ? ?
+4|# + + w ? ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,6]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|# + + + + +   ? ? ?
+8|  +       + ? ? ? ?
+7|  + o   ? ? ? ? ? ?
+6|  + +   ? ? ? ? ? ?
+5|  + +   ? ? ? ? ? ?
+4|# + + w ? ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,7]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|# + + + + +   ? ? ?
+8|  + o     + ? ? ? ?
+7|  + +   ? ? ? ? ? ?
+6|  + +   ? ? ? ? ? ?
+5|  + +   ? ? ? ? ? ?
+4|# + + w ? ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,8]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-1
+Agent turned right.
+9|# + + + + +   ? ? ?
+8|  + + o   + ? ? ? ?
+7|  + +   ? ? ? ? ? ?
+6|  + +   ? ? ? ? ? ?
+5|  + +   ? ? ? ? ? ?
+4|# + + w ? ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,8]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-1
+9|# + + + + +   ? ? ?
+8|  + + + o + ? ? ? ?
+7|  + +     ? ? ? ? ?
+6|  + +   ? ? ? ? ? ?
+5|  + +   ? ? ? ? ? ?
+4|# + + w ? ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,8]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-1
+Agent turned right.
+9|# + + + + +   ? ? ?
+8|  + + + + + ? ? ? ?
+7|  + +   o   ? ? ? ?
+6|  + +     ? ? ? ? ?
+5|  + +   ? ? ? ? ? ?
+4|# + + w ? ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,7]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + +   ? ? ?
+8|  + + + + + ? ? ? ?
+7|  + +   +   ? ? ? ?
+6|  + +   o   ? ? ? ?
+5|  + +     ? ? ? ? ?
+4|# + + w ? ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,6]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + +   ? ? ?
+8|  + + + + + ? ? ? ?
+7|  + +   +   ? ? ? ?
+6|  + +   +   ? ? ? ?
+5|  + +   o   ? ? ? ?
+4|# + + w   ? ? ? ? ?
+3|w + w ? ? ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,5]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + +   ? ? ?
+8|  + + + + + ? ? ? ?
+7|  + +   +   ? ? ? ?
+6|  + +   +   ? ? ? ?
+5|  + +   +   ? ? ? ?
+4|# + + w o w ? ? ? ?
+3|w + w ? w ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,4]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [4,5]
+moveStack.size:26	tempTurnStack.size:26
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[4,5]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|# + + + + +   ? ? ?
+8|  + + + + + ? ? ? ?
+7|  + +   +   ? ? ? ?
+6|  + +   +   ? ? ? ?
+5|  + + o +   ? ? ? ?
+4|# + + w + w ? ? ? ?
+3|w + w ? w ? ? ? ? ?
+2|? w ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+The agent won the game!
+score:1956
+
+infer()
+	pos:[5,8]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:0
+	rightDanger:0
+	leftDanger:0
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[5,8]
+	direction:{0,1}
+	riskFactor:-1
+	forwardDanger:0
+	rightDanger:0
+	leftDanger:0
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[5,8]
+	direction:{0,1}
+	riskFactor:0
+	forwardDanger:0
+	rightDanger:0
+	leftDanger:0
+9|? ? ? ? ! o ! ? ? ?
+8|? ? ? ? ? + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[5,9]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:400
+	rightDanger:-1
+	leftDanger:-1
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[5,9]
+	direction:{0,1}
+	riskFactor:-1
+	forwardDanger:400
+	rightDanger:-1
+	leftDanger:-1
+Agent turned left.
+9|? ? ? w o + ! ? ? ?
+8|? ? ? ? w + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[4,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:400
+	leftDanger:-1
+lookback failed
+	No suitable backtrack found
+infer()
+	pos:[4,9]
+	direction:{-1,0}
+	riskFactor:-1
+	forwardDanger:-1
+	rightDanger:400
+	leftDanger:-1
+9|? ?   o + + ! ? ? ?
+8|? ? ?   w + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[3,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:400
+	leftDanger:-2
+9|?   o + + + ! ? ? ?
+8|? ?     w + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[2,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:400
+	leftDanger:-2
+9|  o + + + + ! ? ? ?
+8|?       w + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:400
+	leftDanger:-2
+9|# o + + + + ! ? ? ?
+8|?       w + ? ? ? ?
+7|? ? ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,9]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:400
+	leftDanger:-2
+Agent turned left.
+9|# + + + + + ! ? ? ?
+8|  o     w + ? ? ? ?
+7|?   ? ? ? ? ? ? ? ?
+6|? ? ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,8]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + + ! ? ? ?
+8|  +     w + ? ? ? ?
+7|  o   ? ? ? ? ? ? ?
+6|?   ? ? ? ? ? ? ? ?
+5|? ? ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,7]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + + ! ? ? ?
+8|  +     w + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|  o   ? ? ? ? ? ? ?
+5|?   ? ? ? ? ? ? ? ?
+4|? ? ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,6]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-2
+	rightDanger:-2
+	leftDanger:-2
+9|# + + + + + ! ? ? ?
+8|  +     w + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|  +   ? ? ? ? ? ? ?
+5|w o w ? ? ? ? ? ? ?
+4|? w ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,5]
+	direction:{0,-1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [1,6]
+moveStack.size:10	tempTurnStack.size:10
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[1,6]
+	direction:{0,1}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-2
+	leftDanger:-2
+Agent turned left.
+9|# + + + + + ! ? ? ?
+8|  +     w + ? ? ? ?
+7|  +   ? ? ? ? ? ? ?
+6|# o   ? ? ? ? ? ? ?
+5|w + w ? ? ? ? ? ? ?
+4|? w ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+infer()
+	pos:[1,6]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [1,6]
+moveStack.size:11	tempTurnStack.size:11
+Agent turned left.
+Agent turned left.
+Agent turned right.
+Agent turned right.
+	backtracked
+infer()
+	pos:[1,6]
+	direction:{-1,0}
+	riskFactor:-2
+	forwardDanger:98
+	rightDanger:-1
+	leftDanger:-1
+lookback succeeded
+backtracking to [2,6]
+moveStack.size:13	tempTurnStack.size:13
+Agent turned left.
+Agent turned left.
+	backtracked
+infer()
+	pos:[2,6]
+	direction:{1,0}
+	riskFactor:-2
+	forwardDanger:-1
+	rightDanger:-1
+	leftDanger:-2
+Agent turned left.
+9|# + + + + + ! ? ? ?
+8|  +     w + ? ? ? ?
+7|  + o   ? ? ? ? ? ?
+6|# + + w ? ? ? ? ? ?
+5|w + w ? ? ? ? ? ? ?
+4|? w ? ? ? ? ? ? ? ?
+3|? ? ? ? ? ? ? ? ? ?
+2|? ? ? ? ? ? ? ? ? ?
+1|? ? ? ? ? ? ? ? ? ?
+0|? ? ? ? ? ? ? ? ? ?
+ --------------------
+  0 1 2 3 4 5 6 7 8 9
+The agent won the game!
+score:1974

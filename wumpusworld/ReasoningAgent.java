@@ -9,9 +9,46 @@ public class ReasoningAgent extends Agent
         super();
     }
 
-    public int backtrack(ArrayList<int[]> moveStack, int riskFactor) {
-        for(int i = moveStack.size()-1; i >= 0; i--) {
-            int[] m = moveStack.get(i);
+    private boolean backtrack(ArrayList<int[]> moveStack, int riskFactor) throws GameOverException{
+        int i = lookBack(riskFactor);
+        if(i < 0) {
+            return false;
+        }
+
+        int[] cell = knowledgeBase.moveStack.get(i);
+        System.out.println("backtracking to ["+cell[0]+","+cell[1]+"]");
+        ArrayList<int[]> tempMoveStack = new ArrayList(knowledgeBase.moveStack);
+        ArrayList tempTurnStack = new ArrayList(knowledgeBase.turnStack);
+        System.out.println("moveStack.size:"+tempMoveStack.size()+"\ttempTurnStack.size:"+tempMoveStack.size());
+        try {
+            turn(LEFT);
+            turn(LEFT);
+            move();
+            while (position[0] != cell[0] || position[1] != cell[1]) {
+                int[] nextMove = tempMoveStack.get(tempMoveStack.size() - 1);
+                if (position[0] + direction[0] == nextMove[0] && position[1] + direction[1] == nextMove[1]) {
+                    move();
+                    tempMoveStack.remove(tempMoveStack.size() - 1);
+                } else {
+                    int turn = (int)tempTurnStack.get(tempTurnStack.size() - 1);
+                    if (turn == LEFT) {
+                        turn(RIGHT);
+                        tempTurnStack.remove(tempTurnStack.size() - 1);
+                    } else if (turn == RIGHT) {
+                        turn(LEFT);
+                        tempTurnStack.remove(tempTurnStack.size() - 1);
+                    }
+                }
+            }
+            return true;
+        } catch (ArrayIndexOutOfBoundsException aioobe) {
+            return false;
+        }
+    }
+
+    private int lookBack(int riskFactor) {
+        for(int i = knowledgeBase.moveStack.size()-1; i >= 0; i--) {
+            int[] m = knowledgeBase.moveStack.get(i);
             for(int[] d: knowledgeBase.DIRECTIONS) {
                 int x = m[0]+d[0];
                 int y = m[1]+d[1];
@@ -19,11 +56,13 @@ public class ReasoningAgent extends Agent
                 if(knowledgeBase.askPath(x, y) == 0 && knowledgeBase.askObstacle(x, y) <= 0) {
                     // And it match
                     if(knowledgeBase.askWumpus(x, y) + knowledgeBase.askPit(x, y) <= riskFactor){
+                        System.out.println("lookback succeeded");
                         return i;
                     }
                 }
             }
         }
+        System.out.println("lookback failed");
         return -1;
     }
     
@@ -44,21 +83,21 @@ public class ReasoningAgent extends Agent
             int leftScore = Integer.MAX_VALUE;
             int rightScore = Integer.MAX_VALUE;
             if (direction.equals(knowledgeBase.NORTH)) {
-                forwardScore = knowledgeBase.askWumpus(position[0], position[1] + 1) + knowledgeBase.askPit(position[0], position[1] + 1) + knowledgeBase.askObstacle(position[0], position[1] + 1);
-                rightScore = knowledgeBase.askWumpus(position[0] + 1, position[1]) + knowledgeBase.askPit(position[0] + 1, position[1]) + knowledgeBase.askObstacle(position[0] + 1, position[1]);
-                leftScore = knowledgeBase.askWumpus(position[0] - 1, position[1]) + knowledgeBase.askPit(position[0] - 1, position[1]) + knowledgeBase.askObstacle(position[0] - 1, position[1]);
+                forwardScore = knowledgeBase.askWumpus(position[0], position[1] + 1) + knowledgeBase.askPit(position[0], position[1] + 1) + knowledgeBase.askObstacle(position[0], position[1] + 1) + knowledgeBase.askPath(position[0], position[1] + 1);
+                rightScore = knowledgeBase.askWumpus(position[0] + 1, position[1]) + knowledgeBase.askPit(position[0] + 1, position[1]) + knowledgeBase.askObstacle(position[0] + 1, position[1])+ knowledgeBase.askPath(position[0]+1, position[1]);
+                leftScore = knowledgeBase.askWumpus(position[0] - 1, position[1]) + knowledgeBase.askPit(position[0] - 1, position[1]) + knowledgeBase.askObstacle(position[0] - 1, position[1])+ knowledgeBase.askPath(position[0]-1, position[1]);
             } else if (direction.equals(knowledgeBase.SOUTH)) {
-                forwardScore = knowledgeBase.askWumpus(position[0], position[1] - 1) + knowledgeBase.askPit(position[0], position[1] - 1) + knowledgeBase.askObstacle(position[0], position[1] - 1);
-                rightScore = knowledgeBase.askWumpus(position[0] - 1, position[1]) + knowledgeBase.askPit(position[0] - 1, position[1]) + knowledgeBase.askObstacle(position[0] - 1, position[1]);
-                leftScore = knowledgeBase.askWumpus(position[0] + 1, position[1]) + knowledgeBase.askPit(position[0] + 1, position[1]) + knowledgeBase.askObstacle(position[0] + 1, position[1]);
+                forwardScore = knowledgeBase.askWumpus(position[0], position[1] - 1) + knowledgeBase.askPit(position[0], position[1] - 1) + knowledgeBase.askObstacle(position[0], position[1] - 1)+ knowledgeBase.askPath(position[0], position[1]-1);
+                rightScore = knowledgeBase.askWumpus(position[0] - 1, position[1]) + knowledgeBase.askPit(position[0] - 1, position[1]) + knowledgeBase.askObstacle(position[0] - 1, position[1])+ knowledgeBase.askPath(position[0]-1, position[1]);
+                leftScore = knowledgeBase.askWumpus(position[0] + 1, position[1]) + knowledgeBase.askPit(position[0] + 1, position[1]) + knowledgeBase.askObstacle(position[0] + 1, position[1])+ knowledgeBase.askPath(position[0]+1, position[1]);
             } else if (direction.equals(knowledgeBase.EAST)) {
-                forwardScore = knowledgeBase.askWumpus(position[0] + 1, position[1]) + knowledgeBase.askPit(position[0] + 1, position[1]) + knowledgeBase.askObstacle(position[0] + 1, position[1]);
-                rightScore = knowledgeBase.askWumpus(position[0], position[1] - 1) + knowledgeBase.askPit(position[0], position[1] - 1) + knowledgeBase.askObstacle(position[0], position[1] - 1);
-                leftScore = knowledgeBase.askWumpus(position[0], position[1] + 1) + knowledgeBase.askPit(position[0], position[1] + 1) + knowledgeBase.askObstacle(position[0], position[1] + 1);
+                forwardScore = knowledgeBase.askWumpus(position[0] + 1, position[1]) + knowledgeBase.askPit(position[0] + 1, position[1]) + knowledgeBase.askObstacle(position[0] + 1, position[1])+ knowledgeBase.askPath(position[0]+1, position[1]);
+                rightScore = knowledgeBase.askWumpus(position[0], position[1] - 1) + knowledgeBase.askPit(position[0], position[1] - 1) + knowledgeBase.askObstacle(position[0], position[1] - 1)+ knowledgeBase.askPath(position[0], position[1]-1);
+                leftScore = knowledgeBase.askWumpus(position[0], position[1] + 1) + knowledgeBase.askPit(position[0], position[1] + 1) + knowledgeBase.askObstacle(position[0], position[1] + 1)+ knowledgeBase.askPath(position[0], position[1]+1);
             } else if (direction.equals(knowledgeBase.WEST)) {
-                forwardScore = knowledgeBase.askWumpus(position[0] - 1, position[1]) + knowledgeBase.askPit(position[0] - 1, position[1]) + knowledgeBase.askObstacle(position[0]-1, position[1]);
-                rightScore = knowledgeBase.askWumpus(position[0], position[1] + 1) + knowledgeBase.askPit(position[0], position[1] + 1) + knowledgeBase.askObstacle(position[0], position[1]+1);
-                leftScore = knowledgeBase.askWumpus(position[0], position[1] - 1) + knowledgeBase.askPit(position[0], position[1] - 1) + knowledgeBase.askObstacle(position[0], position[1]-1);
+                forwardScore = knowledgeBase.askWumpus(position[0] - 1, position[1]) + knowledgeBase.askPit(position[0] - 1, position[1]) + knowledgeBase.askObstacle(position[0]-1, position[1])+ knowledgeBase.askPath(position[0]-1, position[1]);
+                rightScore = knowledgeBase.askWumpus(position[0], position[1] + 1) + knowledgeBase.askPit(position[0], position[1] + 1) + knowledgeBase.askObstacle(position[0], position[1]+1)+ knowledgeBase.askPath(position[0], position[1]+1);
+                leftScore = knowledgeBase.askWumpus(position[0], position[1] - 1) + knowledgeBase.askPit(position[0], position[1] - 1) + knowledgeBase.askObstacle(position[0], position[1]-1)+ knowledgeBase.askPath(position[0], position[1]-1);
             } else {
                 System.out.println("direction did not match in infer()");
             }
@@ -81,11 +120,10 @@ public class ReasoningAgent extends Agent
                 knowledgeBase.print();
                 return;
             } else {
-                int i = backtrack(knowledgeBase.moveStack, riskFactor);
-                if(i >= 0) {
-                    int[] bt = knowledgeBase.moveStack.get(backtrack(knowledgeBase.moveStack, riskFactor));
-                    System.out.println("\tBACKTRACK: return to ["+bt[0]+","+bt[1]+"]");
-                    // move to bt[] and return;
+                boolean backtracked = backtrack(knowledgeBase.moveStack, riskFactor);
+                if(backtracked) {
+                    System.out.println("\tbacktracked");
+                    return;
                 } else {
                     System.out.println("\tNo suitable backtrack found");
                 }

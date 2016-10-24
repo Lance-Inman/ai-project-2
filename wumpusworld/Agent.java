@@ -71,6 +71,7 @@ public abstract class Agent
     public void turn(int direction)
     {
         game.turnAgent(direction);
+        knowledgeBase.registerTurn(direction);
     }
     
     public void shoot()
