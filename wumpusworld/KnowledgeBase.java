@@ -8,7 +8,7 @@ public class KnowledgeBase {
     public final int[] EAST = {1, 0};
     public final int[] WEST = {-1, 0};
     private final int CLEAR = -1;
-    private final int[][] DIRECTIONS = {NORTH, SOUTH, EAST, WEST};
+    public final int[][] DIRECTIONS = {NORTH, SOUTH, EAST, WEST};
     public ArrayList<int[]> moveStack;
     private int[][] wumpusMap;
     private int[][] pitMap;
@@ -93,7 +93,11 @@ public class KnowledgeBase {
     }
 
     public int askPath(int x, int y) {
-        return pathMap[x][y];
+        try {
+            return pathMap[x][y];
+        } catch (ArrayIndexOutOfBoundsException aioobe) {
+            return 100;
+        }
     }
 
     public void tellStench(int x, int y) {
