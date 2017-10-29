@@ -1,4 +1,7 @@
 # project-2
+----------------------
+FINISHED
+----------------------
 <b>CSCI 446 — Artificial Intelligence</b></br>
 <b>Project #2</b></br>
 <b>Logical Inference and the Wumpus World</b></br>
